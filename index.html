@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8" Unicode="U+00A9, UTF-8: C2 A9" Unicode="U+2197 U+FE0E UTF-8: E2 86 97 EF B8 8E" Unicode="U+2198 U+FE0E, UTF-8: E2 86 98 EF B8 8E" Unicode="U+220F, UTF-8: E2 88 8F">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link HREF="https://fonts.googleapis.com/css?family=Dancing+Script|Indie+Flower|Shadows+Into+Light|Permanent+Marker|Amatic+SC|Caveat|Kalam|Nosifer|Sniglet|Satisfy|Architects+Daughter|Bilbo|Patrick+Hand" rel="stylesheet">
+    <title>Surface Area of Geometric Solids</title>
+    <link rel="stylesheet" HREF="./styles.css">
+</head>
+<body>
+    <div id="mainBorder">
+        <h1>Surface Area of the Geometric Solids</h1>
+            <p>
+                The following program will calculate the Surface Area of the main geometric solids.<br>Enter the measurements of your solid then click the submit button to get the answer.
+            </p>
+            <div>           
+                <h2>
+                    Cubes
+                </h2>
+            <br>
+                <img src="./images/sacube1.png" alt="cube" class="cubeImage" id="pic1" />
+                <img src="./images/sacube2.png" alt="cube" class="cubeImage" 
+                id="pic2" />
+                <img src="./images/sacube3.png" alt="cube" class="cubeImage" 
+                id="pic3" />
+                <img src="./images/sacube4.png" alt="cube" class="cubeImage" id="pic4" />
+                <h2>
+                    The Surface Area of a Cube = 6 x length x length
+                </h2>
+                <p id="p1">
+                    Length = 
+                    <input 
+                        type="text" 
+                        id="length1"
+                        class="inputs">
+                </p>
+                <button 
+                    type="submit" 
+                    id="submit1" 
+                    onClick="surfaceAreaCube(  )">
+                    SUBMIT
+                </button>
+                <p id="demo1"></p>
+            </div>
+    </div>
+    <br>
+<!-- SA OF A RECTANGULAR PRISM -->
+    <div id="mainBorder">           
+            <h2>
+                Rectangular Prisms
+            </h2>
+        <br>
+            <img src="./images/rectprism2.png" alt="cube" class="rectImage" id="pic5" />
+            <img src="./images/goldbar.png" alt="cube" class="rectImage" 
+            id="pic6" />
+            <img src="./images/rect3.png" alt="cube" class="rectImage" 
+            id="pic7" />
+            <img src="./images/rect4.png" alt="cube" class="rectImage" id="pic8" />
+            <h2 id="formula">
+                The Surface Area of a Rectangular Prism = <br> 2((length x width) + (width x height) +  (length x height))
+            </h2>
+            <p id="p2">
+                Length = 
+                <input 
+                    type="text" 
+                    id="length2"
+                    class="inputs">
+                Width = 
+                <input 
+                    type="text" 
+                    id="width2"
+                    class="inputs">
+                Height = 
+                <input 
+                    type="text" 
+                    id="height2"
+                    class="inputs">
+            </p>
+            <button 
+                type="submit" 
+                id="submit2" 
+                onClick="surfaceAreaRectPrism(  )">
+                SUBMIT
+            </button>
+            <p id="demo2"></p>
+        </div>
+    </div>
+    <br>
+<!-- /////  SURFACE AREA OF A CYLINDER ///// -->
+    <div id="mainBorder">           
+            <h2>
+                Cylinders
+            </h2>
+        <br>
+            <img src="./images/cylinder1.png" alt="cylinder" class="cylinderImage" id="pic9" />
+            <img src="./images/cylinder2.png" alt="cylinder" class="cylinderImage" 
+            id="pic10" />
+            <img src="./images/cylinder3.png" alt="cylinder" class="cylinderImage" 
+            id="pic11" />
+            <img src="./images/cylinder4.png" alt="cylinder" class="cylinderImage" id="pic12" />
+            <img src="./images/cylinders5.png" alt="cylinder" class="cylinderImage" id="pic13" />
+            <h2 id="formula">
+                The Surface Area of a Cylinder = <br> 2 x ∏ x radius x (radius + height)
+            </h2>
+            <p id="p3">
+                Radius = 
+                <input 
+                    type="text" 
+                    id="radius3"
+                    class="inputs">
+                Height = 
+                <input 
+                    type="text" 
+                    id="height3"
+                    class="inputs">
+            </p>
+            <button 
+                type="submit" 
+                id="submit3" 
+                onClick="surfaceAreaCylinder(  )">
+                SUBMIT
+            </button>
+            <p id="demo3"></p>
+        </div>
+    </div>
+    <br>
+<!-- SURFACE AREA OF A CONE -->
+    <div id="mainBorder">           
+            <h2>
+                Cones
+            </h2>
+        <br>
+            <img src="./images/cone3.png" alt="cone" class="coneImage" id="pic14" />
+            <img src="./images/cone4.png" alt="cone" class="coneImage" id="pic15" />
+            <img src="./images/cone6.png" alt="cone" class="coneImage" id="pic16" />
+            <h2 id="formula">
+                The Surface Area of a Cone = <br> ∏ x (radius)<sup>2</sup> + (2 x ∏ x radius x height)
+            </h2>
+            <p id="p4">
+                Radius = 
+                <input 
+                    type="text" 
+                    id="radius4"
+                    class="inputs">
+                Height = 
+                <input 
+                    type="text" 
+                    id="height4"
+                    class="inputs">
+            </p>
+            <button 
+                type="submit" 
+                id="submit4" 
+                onClick="surfaceAreaCone(  )">
+                SUBMIT
+            </button>
+            <p id="demo4"></p>
+        </div>
+    </div>
+    <br>
+<!-- SURFACE AREA OF A PYRAMID -->
+    <div id="mainBorder">           
+            <h2>
+                Pyramids
+            </h2>
+        <br>
+            <img src="./images/pyramid1.png" alt="pyramid" class="pyramidImage" id="pic19" />
+            <img src="./images/pyramid2.png" alt="pyramid" class="pyramidImage" id="pic20" />
+            <img src="./images/pyramid3.png" alt="pyramid" class="pyramidImage" id="pic21" />
+            <img src="./images/pyramid4.png" alt="pyramid" class="pyramidImage" id="pic22" />
+            <h2 id="formula">
+                The Surface Area of a Pyramid = <br> (length x width) + (2 x length x height) 
+            </h2>
+            <p id="p5">
+                Length = 
+                <input 
+                    type="text" 
+                    id="length5"
+                    class="inputs">
+                Width = 
+                <input 
+                    type="text" 
+                    id="width5"
+                    class="inputs">
+                Height = 
+                <input 
+                    type="text" 
+                    id="height5"
+                    class="inputs">
+            </p>
+            <button 
+                type="submit" 
+                id="submit5" 
+                onClick="surfaceAreaPyramid(  )">
+                SUBMIT
+            </button>
+            <p id="demo5"></p>
+        </div>
+    </div>
+    <br>
+<!-- SURFACE AREA OF A SPHERE -->
+<div id="mainBorder">           
+        <h2>
+            Spheres
+        </h2>
+    <br>
+        <img src="./images/sphere1.png" alt="sphere" class="sphereImage" id="pic23" />
+        <img src="./images/sphere2.png" alt="sphere" class="sphereImage" id="pic24" />
+        <img src="./images/sphere3.png" alt="sphere" class="sphereImage" id="pic25" />
+        <img src="./images/sphere4.png" alt="sphere" class="sphereImage" id="pic26" />
+        <h2 id="formula">
+            The Surface Area of a Shere = 4 x ∏ x (radius)<sup>2</sup>
+        </h2>
+        <p id="p6">
+            Radius = 
+            <input 
+                type="text" 
+                id="radius6"
+                class="inputs">
+        </p>
+        <br>
+        <button 
+            type="submit" 
+            id="submit6" 
+            onClick="surfaceAreaSphere(  )">
+            SUBMIT
+        </button>
+        <p id="demo6"></p>
+    </div>
+</div>
+<br>
+
+    <script 
+        src="./script.js" 
+        type="text/javascript">
+    </script>
+    <footer>
+        ©2019 ALL THINGS MATH <br> ALL RIGHTS RESERVED
+    </footer>
+</body>
+</html>

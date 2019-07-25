@@ -1,0 +1,429 @@
+body {
+    margin: 30px;
+    background-color: honeydew;
+}
+#mainBorder {
+    width: 90%;
+    height: auto;
+    border: 2px black solid;
+    outline: 1px cyan double;
+    margin: 0% 5%;
+    background-color: grey;
+}
+/* PAGE TITLE */
+h1 {
+    font-size: 2 rem;
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px cyan;
+    letter-spacing: 2px;
+}
+/* TEXT:     "THE FOLLOWING PROGRAM..." */
+p {
+    font-size: 1.5rem;
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    text-align: left;
+    text-shadow: 1px 1px 2px cyan;
+    letter-spacing: 2px;
+    padding: 0px 30px;
+}
+/* TEXT:    heading   "THE SA  OF A CUBE" */
+h2 {
+    font-size: 1.8rem;
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px 2px cyan;
+    letter-spacing: 2px;
+    padding: 0px 30px;
+    width: 60%;
+    height: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 2px black solid;
+    outline: 1px tomato solid;
+    background-color: honeydew;
+}
+/* IMAGE:     CUBE   PICTURE */
+.cubeImage {
+    border: 2px black solid;
+    outline: 1px tomato solid;
+    display: inline-block;
+    margin-left: 5.5%;
+}
+#pic1 {
+    width: 14.5%;
+    height: auto;
+}
+#pic2 {
+    width: 22%;
+    height: auto;
+}
+#pic3 {
+    width: 16.5%;
+    height: auto;
+}
+#pic4 {
+    width: 16.5%;
+    height: auto;
+}
+/*  BOXES:  USER INPUTS  */
+.inputs {
+    font-size: 1.8rem;
+    font-family: 'Indie Flower', cursive;
+    width: 15%;
+    height: 60px;
+    text-align: center;
+    border: 2px black solid;
+    outline: 1px tomato solid;
+    text-emphasis: bold;
+    background-color: honeydew;
+}
+/* INPUT TEXT BOX FORMATTING  */
+#length1 {
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    margin-left: 20px;
+    color: black;
+    text-shadow: 1px 1px 1px aqua;
+    background-color: honeydew;
+    display: inline-block;
+}
+/*  TEXT-BOX  LABELS FOR INPUTS*/
+#p1 {
+    font-size: 1.8rem;
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    text-shadow: 1px 1px 1px aqua;
+    letter-spacing: 2px;
+    margin-left: 520px;
+}
+/* BUTTON:     SUBMIT BUTTON */
+#submit1, #submit2, #submit3, #submit4, #submit5, #submit6 {
+    font-size: 1.7rem;
+    width: 21%;
+    height: auto;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    text-shadow: 1px 1px 1px aqua;
+    padding: 5px;
+    margin-left: 39.5%;
+    margin-right: 39.5%;
+    margin-top: 10px;
+    border: 2px black solid;
+    outline: 1px tomato solid;
+    background-color: honeydew;
+}
+#submit1:hover, #submit2:hover, #submit3:hover, #submit4:hover, #submit5:hover, #submit6:hover {
+    background-color: black;
+    color: aqua;
+    text-shadow: 1px 1px 1px tomato;
+}
+/* TEXT-BOX:   ANSWER */
+#demo1, #demo2, #demo3, #demo4, #demo5, #demo6 {
+    width: 13%;
+    height: 60px;
+    color: black;
+    font-size: 1.8rem;
+    background-color: honeydew;
+    border: 1px black solid;
+    outline: 1px tomato solid;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 1px 1px 2px aqua;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+/* //////////BEGIN SURFACE AREA OF RECT PRISM ////// */
+/* TEXT:    heading   "THE SA OF A RECTANGULAR PRISM" */
+#formula {
+    font-size: 1.5rem;
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    text-align: center;
+    text-shadow: 1px 1px 2px aqua;
+    letter-spacing: 2px;
+    padding: 0px 30px;
+    width: 70%;
+    height: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 2px black solid;
+    outline: 1px tomato solid;
+    background-color: honeydew;
+}
+/* IMAGE:     RECT PRISMS   PICTURE */
+.rectImage {
+    border: 2px red solid;
+    display: inline-block;
+    margin-left: 3.5%;
+}
+/* IMAGES OF RECT PRISMS */
+#pic5 {
+    width: 20%;
+    height: auto;
+}
+#pic6 {
+    width: 20%;
+    height: auto;
+}
+#pic7 {
+    width: 17%;
+    height: auto;
+}
+#pic8 {
+    width: 23.5%;
+    height: auto;
+}
+/* TEXT  "LENGTH, WIDTH, HEIGHT" FOR RECT. PRISM */
+#p2 {
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    text-shadow: 1px 1px 1px aqua;
+    letter-spacing: 2px;
+    margin-left: 200px;
+}
+/* TEXT BOX INPUT FORMATTING */
+#length2 {
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    padding: 5px;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-shadow: 1px 1px 1px aqua;
+}
+#width2 {
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    padding: 5px; 
+    margin-left: 1%;
+    margin-right: 1%;
+    text-shadow: 1px 1px 1px aqua;
+}
+#height2 {
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    padding: 5px;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-shadow: 1px 1px 1px aqua;
+}
+/* SURFACE AREA OF A CYLINDER */
+/* TEXT  "LENGTH, WIDTH, HEIGHT" */
+#p3 {
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    text-shadow: 1px 1px 1px aqua;
+    letter-spacing: 2px;
+    margin-left: 350px;
+}
+#radius3, #height3 {
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    text-shadow: 1px 1px 1px aqua;
+}
+/* IMAGE:     CYLINDER  PICTURE */
+.cylinderImage {
+    border: 2px red solid;
+    display: inline-block;
+    margin-left: 2%;
+}
+/* IMAGES OF CYLINDERS */
+#pic9 {
+    width: 18.4%;
+    height: auto;
+}
+#pic10 {
+    width: 13%;
+    height: auto;
+}
+#pic11 {
+    width: 14%;
+    height: auto;
+}
+#pic12 {
+    width: 20%;
+    height: auto;
+}
+#pic13 {
+    width: 18%;
+    height: auto;
+}
+/* BEGIN /////////CONE/////////// */
+/* IMAGE:     cone  PICTURES */
+.coneImage {
+    border: 2px red solid;
+    display: inline-block;
+    margin-left: 10%;
+}
+#pic14 {
+    width: 18%;
+    height: auto;
+}
+#pic15 {
+    width: 20%;
+    height: auto;
+}
+#pic16 {
+    width: 22.5%;
+    height: auto;
+}
+#pic17 {
+    width: 20%;
+    height: auto;
+}
+#pic18 {
+    width: 18%;
+    height: auto;
+}
+/* SURFACE AREA OF A CONE */
+#p4 {
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    text-shadow: 1px 1px 1px aqua;
+    letter-spacing: 2px;
+    margin-left: 350px;
+}
+#radius4 {
+    color: black;
+    text-shadow: 1px 1px 1px aqua;
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#height4 {
+    color: black;
+    text-shadow: 1px 1px 1px aqua;
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* /// START PYRAMID SURFACE AREA /// */
+/* IMAGE:     PYRAMID  PICTURES */
+.pyramidImage {
+    border: 2px red solid;
+    display: inline-block;
+    margin-left: 2%;
+}
+#pic19 {
+    width: 18%;
+    height: auto;
+}
+#pic20 {
+    width: 19.8%;
+    height: auto;
+}
+#pic21 {
+    width: 32%;
+    height: auto;
+}
+#pic22 {
+    width: 18%;
+    height: auto;
+}
+/* SURFACE AREA OF A CONE */
+#p5 {
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    text-shadow: 1px 1px 1px aqua;
+    letter-spacing: 2px;
+    margin-left: 150px;
+}
+/* TEXT:  INPUTS FOR MEASUREMENTS */
+#length5 {
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+    padding: 10px;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+#width5 {
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+    padding: 10px; 
+    margin-left: 2%;
+    margin-right: 1%;
+}
+#height5 {
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+    padding: 10px;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+/* VOLUME OF A SPHERE */
+.sphereImage {
+    border: 2px red solid;
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: auto;
+}
+#pic23 {
+    width: 20%;
+    height: auto;
+}
+#pic24 {
+    width: 19.6%;
+    height: auto;
+}
+#pic25 {
+    width: 13%;
+    height: auto;
+}
+#pic26 {
+    width: 17.2%;
+    height: auto;
+}
+/* SURFACE AREA OF A CONE */
+#p6 {
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    text-shadow: 1px 1px 1px aqua;
+    letter-spacing: 2px;
+    margin-left: 39%;
+    margin-right: 40%;
+    width: 30%;
+    height: 50px;
+}
+/* TEXT:  INPUTS FOR MEASUREMENTS */
+#radius6 {
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 2px;
+    font-size: 1.8rem;
+    color: black;
+    padding: 10px;
+    margin-left: 2%;
+    width: 20%;
+    height: 50px;
+    text-shadow: 1px 1px 1px aqua;
+}
+footer {
+    font-size: 1.3rem;
+    color: black;
+    font-weight: bold;
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    margin-top: 1%;
+    text-shadow: 1px 1px 2px aqua;
+}
